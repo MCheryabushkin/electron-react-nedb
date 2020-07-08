@@ -1,0 +1,7 @@
+.userItem {
+    display: flex;
+    align-items: center;
+}
+.userItem button {
+    margin: 0 10px;
+}

@@ -1,0 +1,51 @@
+{
+    "env": {
+      "browser": true,
+      "commonjs": true,
+      "es6": true,
+      "jest": true
+    },
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      },
+      "sourceType": "module"
+    },
+    "rules": {
+      "no-const-assign": "warn",
+      "no-this-before-super": "warn",
+      "no-undef": "warn",
+      "no-continue": "off",
+      "no-unreachable": "warn",
+      "no-unused-vars": "warn",
+      "constructor-super": "warn",
+      "valid-typeof": "warn",
+      "linebreak-style": ["error", "windows"],
+      "react/prefer-stateless-function": [2, { "ignorePureComponents": true }],
+      "react/jsx-indent": [2, "tab", {"indentLogicalExpressions": true, "checkAttributes": true}],
+      "no-param-reassign": ["error", { "props": false }],
+      "indent": [2, "tab"],
+      "no-tabs": ["error", { "allowIndentationTabs": true }],
+      "space-before-function-paren": ["error", {
+          "anonymous": "always",
+          "named": "always",
+          "asyncArrow": "always"
+      }],
+      "no-console": "off",
+      "quotes": [
+        2,
+        "single"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ]
+    },
+    "parser": "babel-eslint",
+    "extends": "airbnb",
+    "plugins": [
+      "react",
+      "jsx-a11y",
+      "import"
+    ]
+  }
